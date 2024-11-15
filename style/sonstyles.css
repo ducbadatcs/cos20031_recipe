@@ -1,0 +1,119 @@
+/* Add a black background color to the top navigation */
+body{
+  margin: 0px;
+  color:rgb(1, 1, 1);
+  
+}
+.p2-body{
+  background:#26d975 ;
+}
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+h1{
+  text-align: left;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+hr{
+  color: black;
+}
+
+.vertical-menu {
+  width: 200px; /* Set a width if you like */
+}
+.vertical-menu {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+
+
+.vertical-menu a {
+  background-color: #eee; /* Grey background color */
+  color: black; /* Black text color */
+  display: block; /* Make the links appear below each other */
+  padding: 12px; /* Add some padding */
+  text-decoration: none; /* Remove underlines from links */
+}
+
+.vertical-menu a:hover {
+  background-color: #ddd; /* Light grey background color on hover */
+}
+
+.logo {
+  width: 100px; /* Adjust the width as needed */
+  height: auto; /* Maintains the aspect ratio */
+}
+
+.auth-buttons {
+  display: flex;
+  gap: 10px; /* Space between the buttons */
+  margin-left: 80%; /* Push buttons to the right */
+}
+
+.auth-buttons a {
+  text-decoration: none;
+  color: white;
+  background-color: #007BFF; /* Blue background */
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.auth-buttons a:hover {
+  background-color: #45dc3a; /* Darker blue on hover */
+}
+
+.login-btn {
+  background-color: #007BFF;
+}
+
+.register-btn {
+  background-color: #28a745; /* Green background for register */
+}
+
+.register-btn:hover {
+  background-color: #218838; /* Darker green on hover */
+}
+
+
+
+.search-button {
+  text-decoration: none;
+  color: white;
+  background-color: #007BFF; /* Blue background */
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-top: 10px;
+  border: none; /* Added border property */
+  cursor: pointer; /* Added cursor property */
+}
+
+.search-button:hover {
+  background-color: #45dc3a; /* Darker blue on hover */
+}

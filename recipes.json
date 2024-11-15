@@ -1,0 +1,210 @@
+[
+    {
+        "id": 1,
+        "name": "Easy Hard-Boiled Eggs",
+        "image": "images/easy_hard-boiled_eggs.png",
+        "calories": 72,
+        "carbs": 0.4,
+        "fat": 5,
+        "Protein": 6,
+        "prepTime": "5 minutes",
+        "cookTime": "15 minutes",
+        "ingredients": [
+            { "item": "Egg", "quantity": "1 whole, fresh egg", "measure": "50g" }
+        ],
+        "directions": [
+            "Place eggs in a pot and cover with cold water by at least an inch. Cover with a lid.",
+            "Turn the stove to high heat and bring the water to a rolling boil.",
+            "Once boiling, turn off the heat and move the pot to a cool burner. Let sit with the lid on for 15 minutes.",
+            "Fill a large bowl halfway with cold water.",
+            "After 15 minutes, transfer the eggs to the bowl of cold water. Replace cold water as needed to keep eggs submerged until cooled.",
+            "Once cooled, chill the eggs in the refrigerator for at least 2 hours before peeling."
+        ],
+        "description": "1 serving of easy hard-boiled eggs contains 72 Calories. The macronutrient breakdown is 2% carbs, 62% fat, and 36% protein. This has a relatively low calorie density, with 143 Calories per 100g."
+    },
+    {
+        "id": 2,
+        "name": "Chicken Caesar Salad",
+        "image": "images/chicken_caesar_salad.png",
+        "calories": "295",
+        "carbs": 6,
+        "fat": 16,
+        "Protein": 32,
+        "ingredients": [
+            { "item": "Lettuce", "quantity": "Romaine or cos, raw", "measure": "94g" },
+            { "item": "Caesar salad dressing", "quantity": "Low calorie", "measure": "15g" },
+            { "item": "Olive oil", "quantity": "Salad or cooking", "measure": "9g" },
+            { "item": "Chicken breast", "quantity": "Broilers or fryers, meat only, raw", "measure": "1 breast filleto ≈  118g" },
+            { "item": "Parmesan cheese", "quantity": "Shredded", "measure": "10g" }
+
+        ],
+        "directions": [
+            "Slice the raw chicken breast into strips and fry in a pan with olive oil.",
+            "Mix the roasted chicken, lettuce, dressing, and cheese in a bowl.",
+            "Eat it"
+        ],
+        "description": "1 serving of chicken caesar salad contains 295 Calories. The macronutrient breakdown is 8% carbs, 48% fat, and 43% protein. This is a good source of protein (56% of your Daily Value), potassium (14% of your Daily Value), and calcium (17% of your Daily Value)."
+    },
+    {
+        "id": 3,
+        "name": "Simple Spinach Scramble",
+        "image": "images/simple_spinach_scramble.png",
+        "calories": "252",
+        "carbs": 7,
+        "fat": 19,
+        "Protein": 14
+    },
+    {
+        "id": 4,
+        "name": "Cinnamon Apple Bites",
+        "image": "images/cinnamon_apple_bites.png",
+        "calories": "81",
+        "carbs": 22,
+        "fat": 0.2,
+        "Protein": 0.5
+    },
+    {
+        "id": 5,
+        "name": "Basic Scrambled Eggs",
+        "image": "images/basic_scrambled_eggs.png",
+        "calories": "273",
+        "carbs": 2,
+        "fat": 20,
+        "Protein": 19
+    },
+    {
+        "id": 6,
+        "name": "Easy Grilled Chicken Teriyaki",
+        "image": "images/easy_grilled_chicken_teriyaki.png",
+        "calories": "373",
+        "carbs": 13,
+        "fat": 8,
+        "Protein": 58
+    },
+    {
+        "id": 7,
+        "name": "Microwaved Sweet Potato",
+        "image": "images/microwaved_sweet_potato.png",
+        "calories": "112",
+        "carbs": 26,
+        "fat": 0.1,
+        "Protein": 2
+    },
+    {
+        "id": 8,
+        "name": "All American Tuna",
+        "image": "images/all_american_tuna.png",
+        "calories": "256",
+        "carbs": 16,
+        "fat": 6,
+        "Protein": 35
+    },
+    {
+        "id": 9,
+        "name": "Easy Grilled Chicken",
+        "image": "images/easy_grilled_chicken.png",
+        "calories": "208",
+        "carbs": 12,
+        "fat": 4,
+        "Protein": 29
+    },
+    {
+        "id": 10,
+        "name": "Tuna Salad",
+        "image": "images/tuna_salad.png",
+        "calories": "236",
+        "carbs": 10,
+        "fat": 16,
+        "Protein": 18
+    },
+    {
+        "id": 11,
+        "name": "Coconut Milk Protein Shake",
+        "image": "images/coconut_milk_protein_shake.png",
+        "calories": "360",
+        "carbs": 19,
+        "fat": 8,
+        "Protein": 51
+    },
+    {
+        "id": 12,
+        "name": "Easy Garlic Chicken",
+        "image": "images/easy_garlic_chicken.png",
+        "calories": "225",
+        "carbs": 2,
+        "fat": 12,
+        "Protein": 27
+    },
+    {
+        "id": 13,
+        "name": "Easy To Peel Hard-Boiled Eggs",
+        "image": "images/easy_to_peel_hard_boiled_eggs.png",
+        "calories": "144",
+        "carbs": 1,
+        "fat": 9,
+        "Protein": 13
+    },
+    {
+        "id": 14,
+        "name": "Oatmeal Banana Protein Shake",
+        "image": "images/oatmeal_banana_protein_shake.png",
+        "calories": "546",
+        "carbs": 49,
+        "fat": 17,
+        "Protein": 54
+    },
+    {
+        "id": 15,
+        "name": "Curry Chicken Salad",
+        "image": "images/curry_chicken_salad.png",
+        "calories": "203",
+        "carbs": 3,
+        "fat": 8,
+        "Protein": 27
+    },
+    {
+        "id": 16,
+        "name": "Chicken and Avocado Salad",
+        "image": "images/chicken_and_avocado_salad.png",
+        "calories": "404",
+        "carbs": 12,
+        "fat": 25,
+        "Protein": 35
+    },
+    {
+        "id": 17,
+        "name": "Chicken Kabobs",
+        "image": "images/chicken_kabobs.png",
+        "calories": "285",
+        "carbs": 33,
+        "fat": 4,
+        "Protein": 28
+    },
+    {
+        "id": 18,
+        "name": "Cool Summer Cucumber and Tomato Toss",
+        "image": "images/cool_summer_cucumber_and_tomato_toss.png",
+        "calories": "92",
+        "carbs": 6,
+        "fat": 7,
+        "Protein": 1
+    },
+    {
+        "id": 19,
+        "name": "Peanut Butter and Jelly",
+        "image": "images/peanut_butter_and_jelly.png",
+        "calories": "371",
+        "carbs": 42,
+        "fat": 18,
+        "Protein": 12
+    },
+    {
+        "id": 20,
+        "name": "Paleo Avocado Tuna Salad (Tuna in Water)",
+        "image": "images/paleo_avocado_tuna_salad.png",
+        "calories": "357",
+        "carbs": 14,
+        "fat": 22,
+        "Protein": 30
+    }
+]

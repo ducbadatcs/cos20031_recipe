@@ -1,0 +1,28 @@
+/* stylesTransactionHistory.css */
+
+.transaction-history-container {
+    margin-top: 250px; /* Đẩy bảng xuống dưới */
+}
+
+.transaction-history-container table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    margin: 20px auto;
+}
+
+.transaction-history-container table, 
+.transaction-history-container th, 
+.transaction-history-container td {
+    border: 1px solid black;
+}
+
+.transaction-history-container th, 
+.transaction-history-container td {
+    padding: 10px;
+    text-align: left;
+}
+
+.transaction-history-container th {
+    background-color: #f2f2f2;
+}

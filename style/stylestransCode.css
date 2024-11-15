@@ -1,0 +1,199 @@
+
+section {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+h1 {
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+    text-align: center; /* Center the text */
+    background-color: transparent; /* Ensure no background color is set */
+}
+
+/* General table styling */
+table#keydata {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 1em;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+table#keydata thead {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+
+table#keydata th, table#keydata td {
+    padding: 12px 15px;
+    border: 1px solid #dddddd;
+    text-align: center; /* Center-align text in all table cells */
+}
+
+table#keydata th {
+    background-color: #009879; /* Ensure the header cells have the same background color */
+    color: #ffffff; /* Ensure the header cells have the same text color */
+}
+
+table#keydata tbody th {
+    background-color: #f9f9f9; /* Match the background color of tbody th with tbody td */
+    color: #333; /* Match the text color of tbody th with tbody td */
+}
+
+table#keydata tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+table#keydata tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+table#keydata tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+table#keydata tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+}
+
+.table-labeled th {
+    background-color: #333;
+    color: #fff;
+}
+
+.table-labeled td {
+    background-color: #f9f9f9;
+}
+
+/* Centering the "Xem Key" links */
+.table-labeled td.order-actions {
+    text-align: center;
+}
+
+.table-labeled td.order-actions a {
+    display: inline-block;
+    width: 100px; /* Adjust width as needed */
+}
+
+/* Pagination styling */
+#nav {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#nav a {
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 0 5px;
+    text-decoration: none;
+    color: #009879;
+    border: 1px solid #009879;
+    border-radius: 5px;
+}
+
+#nav a.active, #nav a:hover {
+    background-color: #009879;
+    color: #ffffff;
+}
+
+
+/* Pagination styling */
+#nav {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#nav a {
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 0 5px;
+    text-decoration: none;
+    color: #009879;
+    border: 1px solid #009879;
+    border-radius: 5px;
+}
+
+#nav a.active, #nav a:hover {
+    background-color: #009879;
+    color: #ffffff;
+}
+
+/* Footer styling */
+.page-footer {
+    background-color: #333; /* Dark background color for the footer */
+    color: #ffffff; /* White text color */
+    padding: 20px 0; /* Padding for the top and bottom */
+    text-align: center; /* Center-align text */
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.15); /* Add a slight shadow for depth */
+}
+
+/* Link styling */
+.page-footer .account-link {
+    display: inline-block; /* Make the links block elements so they can be styled like buttons */
+    background-color: #009879; /* Background color for the buttons */
+    color: #ffffff; /* White text color */
+    padding: 10px 20px; /* Padding for the buttons */
+    margin: 10px; /* Margin between buttons */
+    border-radius: 5px; /* Rounded corners */
+    text-decoration: none; /* Remove underline from links */
+    font-size: 1em; /* Font size for the buttons */
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+/* Hover effect for buttons */
+.page-footer .account-link:hover {
+    background-color: #007a5e; /* Darker shade for the hover effect */
+}
+
+/* Box styling for content under <h1> */
+#content-wrapper {
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+/* Styling for produce-name */
+.produce-name {
+    color: black;
+    -webkit-text-fill-color: lightgreen; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    font-weight: normal; /* Ensure it's not bold */
+    margin-bottom: 10px;
+}
+
+
+.key {
+    font-size: 20px;
+    color: black !important;
+    margin-top: 10px;
+    font-weight: normal; /* Ensure it's not bold */
+    word-wrap: anywhere;
+    display: inline-block; /* Ensures button and key are on the same line */
+}
+
+.copy-button {
+    display: inline-block; /* Make the links block elements so they can be styled like buttons */
+    background-color: #009879; /* Background color for the buttons */
+    color: #ffffff; /* White text color */
+    padding: 10px 20px; /* Padding for the buttons */
+    margin: 10px; /* Margin between buttons */
+    border-radius: 5px; /* Rounded corners */
+    text-decoration: none; /* Remove underline from links */
+    font-size: 1em; /* Font size for the buttons */
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+.copy-button:hover {
+    background-color: #007a5e; /* Darker shade for the hover effect */
+}

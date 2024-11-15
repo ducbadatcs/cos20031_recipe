@@ -1,0 +1,65 @@
+/* Basic page styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.overview, .instruction {
+    width: 45%;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 90%;
+    max-width: 1200px;
+}
+
+/* Overview section */
+.overview {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.overview img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.overview p {
+    text-align: center;
+}
+
+/* Instruction section */
+.instruction {
+    padding-left: 20px;
+}
+
+.instruction h3 {
+    margin-top: 0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .overview, .instruction {
+        width: 100%;
+    }
+}
